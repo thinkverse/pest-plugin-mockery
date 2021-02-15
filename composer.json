@@ -1,6 +1,6 @@
 {
-    "name": "pestphp/pest-plugin-template",
-    "description": "My awesome plugin",
+    "name": "thinkverse/pest-plugin-mockery",
+    "description": "Add mockery global helpers to PestPHP",
     "keywords": [
         "php",
         "framework",
@@ -8,7 +8,8 @@
         "unit",
         "test",
         "testing",
-        "plugin"
+        "plugin",
+        "mockery"
     ],
     "license": "MIT",
     "require": {
@@ -18,10 +19,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Pest\\PluginName\\": "src/"
+            "Thinkverse\\Pest\\Mockery\\": "src/"
         },
         "files": [
-            "src/Autoload.php"
+            "src/Mockery.php"
         ]
     },
     "require-dev": {
